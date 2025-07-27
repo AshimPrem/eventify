@@ -1,5 +1,5 @@
 
-# Evnetify - Event management system:  Django + React Fullstack Project 🎯
+# Eventify - Event management system :  Django + React Fullstack Project🎯
 
 This is a fullstack project with Django as the backend (REST API) and React as the frontend (UI). The project is organized into two main folders:
 
@@ -72,7 +72,15 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 6. Run the Django development server
+### 6. Create a superuser (for admin login)
+
+```bash
+python manage.py createsuperuser
+```
+
+> 📌 This will allow you to log in at [http://localhost:8000/admin](http://localhost:8000/admin)
+
+### 7. Run the Django development server
 
 ```bash
 python manage.py runserver
@@ -159,9 +167,7 @@ frontend/
 * Always activate your virtual environment before working on the backend.
 * Use `npm start` for frontend live reloading.
 * Use `python manage.py runserver` for backend API serving.
+* To access Django admin panel, visit `http://localhost:8000/admin` after creating a superuser.
 * For REST API testing, use tools like Postman or the built-in Django browsable API.
 
 ---
-
-
-
