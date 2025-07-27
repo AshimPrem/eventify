@@ -1,0 +1,137 @@
+.service-detail-outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 80vh;
+  background: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.service-detail-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(44, 49, 66, 0.10);
+  max-width: 600px;
+  width: 100%;
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-detail-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.service-detail-header h2 {
+  font-size: 2.2rem;
+  color: #2d3142;
+  margin-bottom: 0.7rem;
+}
+
+.service-detail-img {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 1rem auto 0.5rem auto;
+  box-shadow: 0 2px 12px rgba(44, 49, 66, 0.07);
+}
+
+.service-price-tag {
+  color: #f9a826;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.service-detail-body {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.service-description h3,
+.service-features h3 {
+  color: #2d3142;
+  margin-bottom: 0.5rem;
+}
+
+.service-description p {
+  color: #444;
+  margin-bottom: 1.2rem;
+}
+
+.service-features ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.service-features li {
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.service-detail-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.action-button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.action-button.primary {
+  background: #2d3142;
+  color: #fff;
+}
+
+.action-button.primary:hover {
+  background: #f9a826;
+  color: #2d3142;
+}
+
+.action-button.secondary {
+  background: #f9a826;
+  color: #2d3142;
+}
+
+.action-button.secondary:hover {
+  background: #2d3142;
+  color: #fff;
+}
+
+.back-button {
+  margin-top: 0.5rem;
+  background: none;
+  color: #2d3142;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.back-button:hover {
+  color: #f9a826;
+}
+
+@media (max-width: 700px) {
+  .service-detail-card {
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+  }
+  .service-detail-img {
+    max-width: 98vw;
+    height: 160px;
+  }
+}

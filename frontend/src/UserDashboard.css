@@ -1,0 +1,98 @@
+.user-dashboard {
+  display: flex;
+  min-height: 80vh;
+  background: #f8f9fa;
+}
+
+.user-sidebar {
+  width: 200px;
+  background: #2d3142;
+  color: #fff;
+  padding: 2rem 1rem;
+  min-height: 100%;
+}
+
+.user-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-sidebar li {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.user-main {
+  flex: 1;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 2px 12px rgba(44, 49, 66, 0.07);
+}
+
+.services-section {
+  margin-top: 2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 1.2rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(249,168,38,0.13);
+}
+
+.service-img {
+  width: 100%;
+  max-width: 220px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.service-card h4 {
+  margin: 0.5rem 0 0.3rem 0;
+  color: #2d3142;
+}
+
+.service-card p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.service-price {
+  color: #f9a826;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.action-button.primary {
+  background: #2d3142;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.action-button.primary:hover {
+  background: #f9a826;
+  color: #2d3142;
+}

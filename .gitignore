@@ -1,0 +1,58 @@
+# ---- Python/Django ----
+*.py[cod]
+__pycache__/
+*.log
+*.sqlite3
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Django specific files
+*.pot
+local_settings.py
+.settings/
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore migrations across all apps
+backend/**/migrations/
+!backend/**/migrations/__init__.py  # Keep __init__.py to ensure packages
+
+# ---- Node/React ----
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/.turbo/
+
+# React env files
+frontend/.env*
+!frontend/.env.example  # Keep example if needed
+
+# npm/yarn logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors/IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Testing and Coverage ----
+coverage/
+*.lcov
+
+# ---- Docker ----
+*.pid
