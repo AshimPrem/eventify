@@ -1,5 +1,6 @@
 
-# Eventify - Event management system :  Django + React Fullstack Project🎯
+# Eventify - Event Management System 🎯  
+**Fullstack Project using Django (backend) + React (frontend)**
 
 This is a fullstack project with Django as the backend (REST API) and React as the frontend (UI). The project is organized into two main folders:
 
@@ -26,13 +27,24 @@ project-root/
 
 ---
 
+## 📥 Clone the Repository
+
+```bash
+git clone https://github.com/AshimPrem/eventify.git
+cd eventify
+````
+
+> Replace `your-username` with your actual GitHub username or organization.
+
+---
+
 ## ⚙️ Backend Setup (Django)
 
 ### 1. Navigate to the backend directory
 
 ```bash
 cd backend
-````
+```
 
 ### 2. Create a virtual environment
 
@@ -47,6 +59,7 @@ python -m venv env
   ```bash
   env\Scripts\activate
   ```
+
 * **macOS/Linux**:
 
   ```bash
